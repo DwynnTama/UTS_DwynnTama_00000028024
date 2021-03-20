@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/menuToolbarProfile"
+        app:title="Profile"
+        android:background="@color/design_default_color_on_primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="285dp"
+        android:layout_marginTop="24dp"
+        app:srcCompat="@drawable/data_profil" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="18dp"
+        android:paddingBottom="6dp"
+        android:text="              Nama  :     Dwynn Tama"
+        android:textAlignment="inherit"
+        android:textSize="24dp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="6dp"
+        android:text="              NIM     :     00000028024"
+        android:textAlignment="inherit"
+        android:textSize="24dp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="24dp"
+        android:text="              Kelas   :     EL"
+        android:textAlignment="textStart"
+        android:textSize="24dp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Referensi : \nWeb : https://www.11zon.com/zon/android/android-play-audio-from-internal-storage.php"
+        android:textSize="24dp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teman : Andy Koesnadi\n\t\t\t\t\t\t\t\t\t\t\t\tJeremy Yonathan\n\t\t\t\t\t\t\t\t\t\t\t\tLemuel Lancaster"
+        android:textSize="24dp">
+    </TextView>
+</LinearLayout>
